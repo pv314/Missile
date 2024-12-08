@@ -1,0 +1,17 @@
+hong@MacBook-Pro-6 missile % cd build
+hong@MacBook-Pro-6 build % cmake ..
+this will generate some file inside build folder
+now, inside build folder, execute make
+
+/Users/hong/Desktop/missile/
+├── CMakeLists.txt
+├── include/
+│   └── (your headers)
+├── src/
+│   └── (source files here)
+├── remake.sh
+└── build/
+    ├── CMakeFiles/
+    ├── cmake_install.cmake
+    ├── Makefile
+    └── missile (compiled executable)
